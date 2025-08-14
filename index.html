@@ -1,7 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
+  <meta
+    http-equiv="Content-Security-Policy"
+    content="upgrade-insecure-requests"
+  />
+
+  <!-- Basic security headers -->
+  <meta
+    http-equiv="Strict-Transport-Security"
+    content="max-age=31536000; includeSubDomains; preload"
+  />
+
+  <!-- Site info for better trust -->
+  <meta
+    name="description"
+    content="Happy Independence Day! Greetings from Partha Sarathi Patra."
+  />
+  <meta name="author" content="Partha Sarathi Patra" />
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" /> <!-- Added for better scaling -->
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!-- Added for better scaling -->
   <title>Happy Independence Day 🇮🇳</title>
   <meta
     name="description"
@@ -75,7 +93,11 @@
     p {
       margin: 10px 0 0;
       opacity: 0.88;
-      font-size: clamp(13px, 3.2vw, 14px); /* Adjust text size for small screens */
+      font-size: clamp(
+        13px,
+        3.2vw,
+        14px
+      ); /* Adjust text size for small screens */
     }
     #go {
       border: 0;
